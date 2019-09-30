@@ -71,8 +71,8 @@ class _HomePageState extends State<HomePage> {
           child: Column( mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
            Hero(
-                  tag: poke.img,
-                 child: Container(
+                tag: poke.img,
+                child: Container(
                 height: 100.0,
                 width: 100.0,
                 decoration: BoxDecoration(
